@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+    height: 1322px;
+    
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 55px 240px 50px 228px;
+}
+
+.group-name{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    
+}
+
+.contact-section, li{
+    display: inline;
+    list-style: none;
+    padding-left: 40px;
+}
+
+.contact-section, li, a{
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* end nav section  */
+
+/* start header section  */
+
+.header-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-description{
+    width: 862px;
+    height: 225px;
+    text-align: center;
+    margin: 100px 529px 10px 529px;
+}
+
+.header-title{
+    color: #131313;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+
+.primary-description{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.primary-button{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 24px;
+    border: none;
+    margin-top: 32px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-picture{
+    margin: 100px 300px;
+}
+
+.banner-picture{
+    width: 1440px;
+    height: 700px;
+}
+
+/* end header section  */
+/* start main section 
+---------------------- */
+
+.first-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.picture-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    margin: 85px 10px 130px 301px;
+}
+
+.team-image{
+    width: 342px;
+    height: 342px;
+}
+
+.description-part{
+    width: 537px;
+    height: 304px;
+    margin: 287px 301px 332px 73px;
+}
+
+.description-heading{
+
+}
+
+.white-part{
+    color: #727272;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+.black-part{
+    color: #131313;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.gold-part{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+/* end first-section  */
+
+  /* -------------------------- 
+     start second section 
+  ------------------------ */
+
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.features-section{
+    margin-left: 240px;
+}
+
+.features-title{
+    font-family: 'Work Sans', sans-serif;
+    color: #131313;
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 21px;
+    border-left: 5px solid #FF900E;
+    width: 468px;
+    height: 171px;
+}
+
+.service-description{
+    width: 586px;
+    height: 78px;
+}
+
+.primary-description{
+
+}
+
+.our-service-list{
+    width: 514px;
+    height: 111px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.service-heading{
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Features-description{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #727272;
+    ;
+}
+
+.features-photo{
+    width: 708px;
+    height: 982px;
+    margin-right: 149px 263px 111px 123px;
+    
+}
+
+.architect-img{
+    
+}
+
+.features-button{
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    border: none;
+    padding: 45px 42px;
+    margin-top: -20%;
+    margin-left: -150px;
+    
+}
+
+.button-font{
+    font-family: 'Work Sans', sans-serif;
+    
+    font-size: 65px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
