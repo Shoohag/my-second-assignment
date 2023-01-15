@@ -3,6 +3,12 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 1920px;
+    
+    
+}
+
 header{
     background: rgba(255, 144, 14, 0.1);
     width: 1920px;
@@ -99,7 +105,9 @@ header{
 ---------------------- */
 
 .first-section{
+    
     display: grid;
+    display: none;
     grid-template-columns: repeat(2,1fr);
 }
 
@@ -153,6 +161,7 @@ header{
 
 .second-section{
     display: grid;
+    display: none;
     grid-template-columns: repeat(2,1fr);
 }
 
@@ -203,7 +212,7 @@ header{
     font-size: 16px;
     font-weight: 400px;
     color: #727272;
-    ;
+    
 }
 
 .features-photo{
@@ -214,7 +223,7 @@ header{
 }
 
 .architect-img{
-    
+   
 }
 
 .features-button{
@@ -236,4 +245,154 @@ header{
     font-size: 65px;
     font-weight: 700;
     color: #FFFFFF;
+}
+
+/* second section end */
+
+.third-sectio{
+    display: flex;
+    
+    
+}
+
+.facts{
+    margin-top: 200px;
+    margin-left: 250px;
+    
+
+}
+
+.third-section-title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.primary-description{
+
+}
+
+.third-section-button{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 120px 240px;
+}
+
+
+
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid  #FF900E;
+    width: 240px;
+    height: 240px ;
+    border-radius: 8px;
+}
+
+.number{
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    color: #1d1d1d;
+    font-weight: 800px;
+    padding: 10px 0px;
+}
+
+.name{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+.button:hover{
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+    border: none;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px;
+}
+
+/*  end third section */
+/* start sponsore section
+---------------------- */
+
+.sponsors-section{
+
+}
+
+.sponsors-description{
+    text-align: center;
+}
+
+.sopnsors-title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.primary-description{
+
+}
+
+.all-sponsors{
+    margin: 50px 200px;
+}
+
+.sponsors-name{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* close sponsors-section */
+
+/* close main section  */
+
+/* start footer section  */
+
+.footer-section{
+    color: white;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 100px 240px;
+    
+}
+
+.copyright-section{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title{
+    font-family: 'Work Sans', sans-serif;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.fa-facebook{
+
+}
+
+.fa-twitter{
+
+}
+
+.fa-linkedin{
+
+}
+
+.fa-youtube{
+
+}
+
+/* end footer section  */
+
+@media screen and (max-width: 768px) {
+    
 }
